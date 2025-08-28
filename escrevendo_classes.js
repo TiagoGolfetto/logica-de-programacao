@@ -36,12 +36,17 @@ class Heroi {
     }
 }
 
-
+// Criando heróis, agora com a padronização no construtor
 let heroi1 = new Heroi('Aragorn', 87, 'Guerreiro');
 let heroi2 = new Heroi('Gandalf', 2019, 'monge ');
 let heroi3 = new Heroi('Gimli', 139, 'Guerreiro');
 let heroi4 = new Heroi('Frodo', 50, 'ninja');
-heroi1.atacar(); // O Guerreiro atacou usando Espada
-heroi2.atacar(); // O Mago atacou usando Magia   
-heroi3.atacar(); // O Arqueiro atacou usando Arco e Flecha
-heroi4.atacar(); // O Hobbit atacou usando Ataque Desconhecido      
+let heroi5 = new Heroi('Legolas', 38, 'elfo');
+
+// Fazendo-os atacar
+heroi1.atacar(); // O guerreiro atacou usando espada
+heroi2.atacar(); // O monge atacou usando artes marciais
+heroi3.atacar(); // O guerreiro atacou usando espada
+heroi4.atacar(); // O ninja atacou usando shuriken
+heroi5.atacar(); // O elfo atacou usando um ataque desconhecido    
+
